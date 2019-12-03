@@ -21,7 +21,7 @@ During image sensor manufacturing phase, sensors has to go through testing proce
 Each images sensor tested produce megabyte worth of various kind of data and one of them is image during testing process. There are many strict control work flows introduced by various teams involved minimise, eliminate or track quality compromising scenarios. One of the scenario is that testing process yield for high cost batch of products falling below the estimated yield, which is an anomaly and expensive one if it is false. False anomalies are flagged when instruments in testing platform malfunctions or human error by manufacturing operations staff. In such scenario a trained staff has to check each image data manually to confirm the flagged batch is indeed an anomaly thus appropriate team can make decision how to proceed with that batch of products if not anomaly batch could be moved to next process as per normal flow.
 
 ## Problem Statement
-Observed that conducting such task during night shift results in staff couldn’t able to perform the task for long hours due to eyes getting tired and feeling sleepy. 
+Observed that conducting such task during night shift results in staff couldnâ€™t able to perform the task for long hours due to eyes getting tired and feeling sleepy. 
 Results are 
 -	An unreliable work flow that causes delay in daily product output delivery to customer.
 -	Quality of the product compromised due to misclassification of defects and product with defect escapes as good product and reaching sensitive end products.
@@ -117,7 +117,8 @@ For the problem statement able to make an automated image classifier system to r
 ## Further exploration
 In future a deep learning model to be built and tested against machine learning model. 
 
-Deployment avenues such as flask or Django to be explored in future
-
+## Deployment
+Deployed as a standalone software suitble for industrial machines. PyQt5 package was used to build the GUI for the software.
+<img src="./assets/is2d.png" width="427" height="240">
 
 
