@@ -120,6 +120,6 @@ In future a deep learning model to be built and tested against machine learning 
 ## Deployment
 Deployed as a standalone software suitble for industrial machines. PyQt5 package was used to build the GUI for the software.
 
-<img src="./assets/is2d.png" width="1100" height="980">
+<img src="./assets/is2d.png" width="550" height="480">
 
 
