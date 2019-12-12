@@ -18,14 +18,17 @@ During image sensor manufacturing phase, sensors has to go through testing proce
 <img src="https://d1d1c1tnh6i0t6.cloudfront.net/wp-content/uploads/2017/08/color-vs-mono-sensor-bayer-pattern-1.jpg">
 <p style='text-align: right;'> Photo credit: thinklucid.com</p>
 
-During testing process each images sensor tested produces megabyte worth of various kind of data and one of them is image data. There are many strict control work flows introduced by various teams involved minimise, eliminate or track quality compromising scenarios. One of the scenario is that testing process yield for high cost batch of products falling below the estimated yield or exceptionally high yield, which are an anomaly and expensive one if it is false. Anomalies are triggered when the batch truly contains high defective or good products or instruments in testing platform malfunctioned and affcted the yield or human error by manufacturing operations staff affected the yield. In such scenario to check the integrity of the batch of products has to be determined, two approaches can be deployed to do quality check.  
+During testing process each images sensor tested produces megabyte worth of various kind of data and one of them is image data. There are many strict control work flows introduced by various teams involved minimise, eliminate or track quality compromising scenarios. One of the scenario is that testing process yield for high cost batch of products falling below the estimated yield or exceptionally high, which are an anomaly and expensive one if it is false. Anomalies are triggered when the batch truly contains high defective or good products or instruments in testing platform malfunctioned and affected the yield or human error by manufacturing operations staff affected the yield. In such scenario to check the integrity of the batch of products has to be determined, two approaches can be deployed to do quality check.  
+
 1. Test the batch again on testing platforms.
-2. A staff has to check each image data manually to confirm the intergrety.
+2. A staff has to check each image data manually to confirm the intergrety.  
+
 Appropriate team can make decision how to proceed with that batch of products from the result of any of the above flow.  
 
 ## Problem Statement
 Performing batch quality check on testing platforms has its own drawback.  
- - Costly measure since it affects the through put of the testing platform.
+
+ - Costly measure since it affects the throughput of the testing platform.
  - Wasted resource.  
 
 
