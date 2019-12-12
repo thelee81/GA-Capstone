@@ -18,16 +18,25 @@ During image sensor manufacturing phase, sensors has to go through testing proce
 <img src="https://d1d1c1tnh6i0t6.cloudfront.net/wp-content/uploads/2017/08/color-vs-mono-sensor-bayer-pattern-1.jpg">
 <p style='text-align: right;'> Photo credit: thinklucid.com</p>
 
-Each images sensor tested produce megabyte worth of various kind of data and one of them is image during testing process. There are many strict control work flows introduced by various teams involved minimise, eliminate or track quality compromising scenarios. One of the scenario is that testing process yield for high cost batch of products falling below the estimated yield, which is an anomaly and expensive one if it is false. False anomalies are flagged when instruments in testing platform malfunctions or human error by manufacturing operations staff. In such scenario a trained staff has to check each image data manually to confirm the flagged batch is indeed an anomaly thus appropriate team can make decision how to proceed with that batch of products if not anomaly batch could be moved to next process as per normal flow.
+During testing process each images sensor tested produces megabyte worth of various kind of data and one of them is image data. There are many strict control work flows introduced by various teams involved minimise, eliminate or track quality compromising scenarios. One of the scenario is that testing process yield for high cost batch of products falling below the estimated yield or exceptionally high yield, which are an anomaly and expensive one if it is false. Anomalies are triggered when the batch truly contains high defective or good products or instruments in testing platform malfunctioned and affcted the yield or human error by manufacturing operations staff affected the yield. In such scenario to check the integrity of the batch of products has to be determined, two approaches can be deployed to do quality check.  
+1. Test the batch again on testing platforms.
+2. A staff has to check each image data manually to confirm the intergrety.
+Appropriate team can make decision how to proceed with that batch of products from the result of any of the above flow.  
 
 ## Problem Statement
-Observed that conducting such task during night shift results in staff couldn’t able to perform the task for long hours due to eyes getting tired and feeling sleepy. 
-Results are 
--	An unreliable work flow that causes delay in daily product output delivery to customer.
--	Quality of the product compromised due to misclassification of defects and product with defect escapes as good product and reaching sensitive end products.
--	When good products are classified as defective cost of wastage increases.  
+Performing batch quality check on testing platforms has its own drawback.  
+ - Costly measure since it affects the through put of the testing platform.
+ - Wasted resource.  
 
-Scope of the project is to build a reliable system to replace the manual image checking work flow.
+
+Conducting batch quality check manually results in staff couldn’t able to perform the task for long hours due to eyes getting tired because of big batch size and unhappy about the job nature. Drawbacks are 
+
+- An unreliable work flow that causes delay in daily product output delivery to customer.
+- Quality of the product compromised due to misclassification of defects and product with defect escapes as good product and reaching sensitive end products.
+- When good products are classified as defective cost of wastage increases.  
+
+Scope of the project is to build a low cost reliable system to replace both the batch quality check work flow.  
+
 
 ## Project outcome score and measurement
 
